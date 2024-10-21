@@ -1,0 +1,63 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+}
+
+.question {
+    margin: 10px 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Change to a darker shade of blue */
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#error {
+    color: red; /* Changed to red for error messages */
+    font-weight: bold;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%; /* Makes the container occupy 90% of the viewport */
+        padding: 10px; /* Reduces padding on smaller screens */
+    }
+    h1 {
+        font-size: 1.5em; /* Smaller font size for the title */
+    }
+}
